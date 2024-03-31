@@ -6,5 +6,5 @@
     "outDir": "./lib",
     "declaration": true
   },
-  "include": ["src"],
+  "include": ["index.ts"],
 }

@@ -29,4 +29,4 @@ const Configuration = {
     },
 };
 
-export default Configuration;
+export { Configuration };
