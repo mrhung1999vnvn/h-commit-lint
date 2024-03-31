@@ -1,11 +1,12 @@
 {
-    "name": "h-commit-lint",
-    "version": "1.0.1",
+    "name": "@hungg/commit-lint",
+    "version": "1.0.2",
     "description": "This is project support commit lint",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
-        "lib"
+        "lib",
+        "index"
     ],
     "scripts": {
         "build": "tsc",
@@ -28,7 +29,8 @@
     "homepage": "https://github.com/mrhung1999vnvn/h-commit-lint#readme",
     "dependencies": {
         "@commitlint/cli": "^13.2.1",
-        "@commitlint/config-conventional": "^13.2.0"
+        "@commitlint/config-conventional": "^13.2.0",
+        "conventional-changelog-conventionalcommits": "^4.6.1"
     },
     "devDependencies": {
         "typescript": "^4.6.3",
