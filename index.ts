@@ -1,5 +1,4 @@
-// import ChalkLog from 'chalk';
-const ChalkLog = require('chalk');
+import ChalkLog from 'chalk';
 
 const Configuration = {
     extends: ['@commitlint/config-conventional'],
