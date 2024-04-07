@@ -1,11 +1,12 @@
 {
-    "name": "@hungg/commit-lint",
+    "name": "commitlint-config-hungg",
     "version": "1.0.2",
     "description": "This is project support commit lint",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
-        "lib"
+        "lib",
+        "index"
     ],
     "scripts": {
         "build": "tsc",
